@@ -1,0 +1,20 @@
+{
+  "name": "log",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "check": "biome check --write",
+    "dev": "rsbuild dev --open",
+    "format": "biome format --write",
+    "preview": "rsbuild preview"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.0",
+    "@rsbuild/core": "^0.7.6",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@ctrl/tinycolor": "^4.1.0"
+  }
+}

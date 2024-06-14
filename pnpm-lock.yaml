@@ -1,0 +1,381 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@ctrl/tinycolor':
+        specifier: ^4.1.0
+        version: 4.1.0
+    devDependencies:
+      '@biomejs/biome':
+        specifier: ^1.8.0
+        version: 1.8.1
+      '@rsbuild/core':
+        specifier: ^0.7.6
+        version: 0.7.6
+      typescript:
+        specifier: ^5.4.2
+        version: 5.4.5
+
+packages:
+
+  '@biomejs/biome@1.8.1':
+    resolution: {integrity: sha1-UKEG9QAeUHdZY/xdC9088Qfjfb8=}
+    engines: {node: '>=14.21.3'}
+    hasBin: true
+
+  '@biomejs/cli-darwin-arm64@1.8.1':
+    resolution: {integrity: sha1-gTlzvgoaFXmLE1nHaiOg6UHKRec=}
+    engines: {node: '>=14.21.3'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@biomejs/cli-darwin-x64@1.8.1':
+    resolution: {integrity: sha1-098te1Ks08Lzazba9SAldtJBC6Q=}
+    engines: {node: '>=14.21.3'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@biomejs/cli-linux-arm64-musl@1.8.1':
+    resolution: {integrity: sha1-u1Ia8+QqKHFph1kyqLvrwIUiCtM=}
+    engines: {node: '>=14.21.3'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@biomejs/cli-linux-arm64@1.8.1':
+    resolution: {integrity: sha1-dl+JZpkz+oJueL4uM3JE+oGYqbc=}
+    engines: {node: '>=14.21.3'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@biomejs/cli-linux-x64-musl@1.8.1':
+    resolution: {integrity: sha1-uiWaeNjFLXjA7p9gCQ8VPhOlB7M=}
+    engines: {node: '>=14.21.3'}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@biomejs/cli-linux-x64@1.8.1':
+    resolution: {integrity: sha1-+8FEEOQC2QGmJx1LO4ijkcv4yVk=}
+    engines: {node: '>=14.21.3'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@biomejs/cli-win32-arm64@1.8.1':
+    resolution: {integrity: sha1-LbQnA/NBoceWVpi05JvXtEiUstY=}
+    engines: {node: '>=14.21.3'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@biomejs/cli-win32-x64@1.8.1':
+    resolution: {integrity: sha1-/HpZXoTa5cZJOc1t2ik0Bd0jydA=}
+    engines: {node: '>=14.21.3'}
+    cpu: [x64]
+    os: [win32]
+
+  '@ctrl/tinycolor@4.1.0':
+    resolution: {integrity: sha1-kaj4Eg/8naL+sqOPeGKzANXpaRo=}
+    engines: {node: '>=14'}
+
+  '@module-federation/runtime-tools@0.1.6':
+    resolution: {integrity: sha1-7pu+jG6CO0xkFpXJGrCwv9xbMQI=}
+
+  '@module-federation/runtime@0.1.6':
+    resolution: {integrity: sha1-5Wrba9sMUmS6V0DQqmRWjxmgw74=}
+
+  '@module-federation/sdk@0.1.6':
+    resolution: {integrity: sha1-TWSyBu9r3dmcp0aA8niiE0pJPdU=}
+
+  '@module-federation/webpack-bundler-runtime@0.1.6':
+    resolution: {integrity: sha1-hSBDWRPKEOTyWegl2VIQAllbp2k=}
+
+  '@rsbuild/core@0.7.6':
+    resolution: {integrity: sha1-X2mXRNq5AsZIOYoL0jXd1QMXYV4=}
+    engines: {node: '>=16.0.0'}
+    hasBin: true
+
+  '@rsbuild/shared@0.7.6':
+    resolution: {integrity: sha1-OB5GY2YdSDD0P+Gr6zmmCO+xyE4=}
+
+  '@rspack/binding-darwin-arm64@0.7.1':
+    resolution: {integrity: sha1-peeUv+VMy2X4tm5WSOlBsm+8Kk4=}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@rspack/binding-darwin-x64@0.7.1':
+    resolution: {integrity: sha1-M2oyB2kAXMAbk56ck+0QN4tFae4=}
+    cpu: [x64]
+    os: [darwin]
+
+  '@rspack/binding-linux-arm64-gnu@0.7.1':
+    resolution: {integrity: sha1-kslca7scmLFspKe/ODYgQ/1W8hE=}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rspack/binding-linux-arm64-musl@0.7.1':
+    resolution: {integrity: sha1-Bqcwjjdt0A3BONaw9NiboBsphHo=}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@rspack/binding-linux-x64-gnu@0.7.1':
+    resolution: {integrity: sha1-pMiCLGcYhKj8Vcv6RWu/lAdbrkQ=}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rspack/binding-linux-x64-musl@0.7.1':
+    resolution: {integrity: sha1-XQwRzyCq5mxVdtiNm2Vah8xpeLw=}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@rspack/binding-win32-arm64-msvc@0.7.1':
+    resolution: {integrity: sha1-lzw5atEIEd+3lB/04xO2j+HWdS4=}
+    cpu: [arm64]
+    os: [win32]
+
+  '@rspack/binding-win32-ia32-msvc@0.7.1':
+    resolution: {integrity: sha1-eZjHr1GXCNakBFFdGUvCXnGeXsM=}
+    cpu: [ia32]
+    os: [win32]
+
+  '@rspack/binding-win32-x64-msvc@0.7.1':
+    resolution: {integrity: sha1-gNTHa+dKqxiI4I50IQep9rhCmLI=}
+    cpu: [x64]
+    os: [win32]
+
+  '@rspack/binding@0.7.1':
+    resolution: {integrity: sha1-KGHGvYHAbgrtMTKO+OZBJmH8oW4=}
+
+  '@rspack/core@0.7.1':
+    resolution: {integrity: sha1-SVZf2yaKoJqWBeaz58E3NmwZtpg=}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      '@swc/helpers': '>=0.5.1'
+    peerDependenciesMeta:
+      '@swc/helpers':
+        optional: true
+
+  '@swc/helpers@0.5.3':
+    resolution: {integrity: sha1-mMbaHhlvXwj5d2WLgNa9lBtfKU8=}
+
+  caniuse-lite@1.0.30001632:
+    resolution: {integrity: sha1-lkIHt8ulhRcBr7TIr68USNs4hLY=}
+
+  core-js@3.36.1:
+    resolution: {integrity: sha1-yXpxYOvQCy3hnmL0u9NAarcg5Xg=}
+
+  fsevents@2.3.3:
+    resolution: {integrity: sha1-ysZAd4XQNnWipeGlMFxpezR9kNY=}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+
+  html-rspack-plugin@5.7.2:
+    resolution: {integrity: sha1-x7/lQifDg4S3kP/GESfsMWHNmlk=}
+    engines: {node: '>=10.13.0'}
+    peerDependencies:
+      '@rspack/core': 0.x || 1.x
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
+
+  nanoid@3.3.7:
+    resolution: {integrity: sha1-0MMBppG8jVTvoKIibM8/4v1la9g=}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+
+  picocolors@1.0.1:
+    resolution: {integrity: sha1-qK1Xm1cZUvDl0liS3lRFvP4lqqE=}
+
+  postcss@8.4.38:
+    resolution: {integrity: sha1-s4fVM7ryBUKI4zcGbYHGvunbng4=}
+    engines: {node: ^10 || ^12 || >=14}
+
+  source-map-js@1.2.0:
+    resolution: {integrity: sha1-FrgJwWJRe1uMPn3NMVoqXCYSsq8=}
+    engines: {node: '>=0.10.0'}
+
+  tapable@2.2.1:
+    resolution: {integrity: sha1-GWenPvQGCoLxKrlq+G1S/bdu7KA=}
+    engines: {node: '>=6'}
+
+  tslib@2.6.3:
+    resolution: {integrity: sha1-BDj4EK16ntzeeiQcPYDbaTyMv+A=}
+
+  typescript@5.4.5:
+    resolution: {integrity: sha1-QszvLFcf29D2cYsdH15uXvAG9hE=}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  webpack-sources@3.2.3:
+    resolution: {integrity: sha1-LU2quEUf1LJAzCcFX/agwszqDN4=}
+    engines: {node: '>=10.13.0'}
+
+snapshots:
+
+  '@biomejs/biome@1.8.1':
+    optionalDependencies:
+      '@biomejs/cli-darwin-arm64': 1.8.1
+      '@biomejs/cli-darwin-x64': 1.8.1
+      '@biomejs/cli-linux-arm64': 1.8.1
+      '@biomejs/cli-linux-arm64-musl': 1.8.1
+      '@biomejs/cli-linux-x64': 1.8.1
+      '@biomejs/cli-linux-x64-musl': 1.8.1
+      '@biomejs/cli-win32-arm64': 1.8.1
+      '@biomejs/cli-win32-x64': 1.8.1
+
+  '@biomejs/cli-darwin-arm64@1.8.1':
+    optional: true
+
+  '@biomejs/cli-darwin-x64@1.8.1':
+    optional: true
+
+  '@biomejs/cli-linux-arm64-musl@1.8.1':
+    optional: true
+
+  '@biomejs/cli-linux-arm64@1.8.1':
+    optional: true
+
+  '@biomejs/cli-linux-x64-musl@1.8.1':
+    optional: true
+
+  '@biomejs/cli-linux-x64@1.8.1':
+    optional: true
+
+  '@biomejs/cli-win32-arm64@1.8.1':
+    optional: true
+
+  '@biomejs/cli-win32-x64@1.8.1':
+    optional: true
+
+  '@ctrl/tinycolor@4.1.0': {}
+
+  '@module-federation/runtime-tools@0.1.6':
+    dependencies:
+      '@module-federation/runtime': 0.1.6
+      '@module-federation/webpack-bundler-runtime': 0.1.6
+
+  '@module-federation/runtime@0.1.6':
+    dependencies:
+      '@module-federation/sdk': 0.1.6
+
+  '@module-federation/sdk@0.1.6': {}
+
+  '@module-federation/webpack-bundler-runtime@0.1.6':
+    dependencies:
+      '@module-federation/runtime': 0.1.6
+      '@module-federation/sdk': 0.1.6
+
+  '@rsbuild/core@0.7.6':
+    dependencies:
+      '@rsbuild/shared': 0.7.6(@swc/helpers@0.5.3)
+      '@rspack/core': 0.7.1(@swc/helpers@0.5.3)
+      '@swc/helpers': 0.5.3
+      core-js: 3.36.1
+      html-webpack-plugin: html-rspack-plugin@5.7.2(@rspack/core@0.7.1(@swc/helpers@0.5.3))
+      postcss: 8.4.38
+
+  '@rsbuild/shared@0.7.6(@swc/helpers@0.5.3)':
+    dependencies:
+      '@rspack/core': 0.7.1(@swc/helpers@0.5.3)
+      caniuse-lite: 1.0.30001632
+      html-webpack-plugin: html-rspack-plugin@5.7.2(@rspack/core@0.7.1(@swc/helpers@0.5.3))
+      postcss: 8.4.38
+    optionalDependencies:
+      fsevents: 2.3.3
+    transitivePeerDependencies:
+      - '@swc/helpers'
+
+  '@rspack/binding-darwin-arm64@0.7.1':
+    optional: true
+
+  '@rspack/binding-darwin-x64@0.7.1':
+    optional: true
+
+  '@rspack/binding-linux-arm64-gnu@0.7.1':
+    optional: true
+
+  '@rspack/binding-linux-arm64-musl@0.7.1':
+    optional: true
+
+  '@rspack/binding-linux-x64-gnu@0.7.1':
+    optional: true
+
+  '@rspack/binding-linux-x64-musl@0.7.1':
+    optional: true
+
+  '@rspack/binding-win32-arm64-msvc@0.7.1':
+    optional: true
+
+  '@rspack/binding-win32-ia32-msvc@0.7.1':
+    optional: true
+
+  '@rspack/binding-win32-x64-msvc@0.7.1':
+    optional: true
+
+  '@rspack/binding@0.7.1':
+    optionalDependencies:
+      '@rspack/binding-darwin-arm64': 0.7.1
+      '@rspack/binding-darwin-x64': 0.7.1
+      '@rspack/binding-linux-arm64-gnu': 0.7.1
+      '@rspack/binding-linux-arm64-musl': 0.7.1
+      '@rspack/binding-linux-x64-gnu': 0.7.1
+      '@rspack/binding-linux-x64-musl': 0.7.1
+      '@rspack/binding-win32-arm64-msvc': 0.7.1
+      '@rspack/binding-win32-ia32-msvc': 0.7.1
+      '@rspack/binding-win32-x64-msvc': 0.7.1
+
+  '@rspack/core@0.7.1(@swc/helpers@0.5.3)':
+    dependencies:
+      '@module-federation/runtime-tools': 0.1.6
+      '@rspack/binding': 0.7.1
+      caniuse-lite: 1.0.30001632
+      tapable: 2.2.1
+      webpack-sources: 3.2.3
+    optionalDependencies:
+      '@swc/helpers': 0.5.3
+
+  '@swc/helpers@0.5.3':
+    dependencies:
+      tslib: 2.6.3
+
+  caniuse-lite@1.0.30001632: {}
+
+  core-js@3.36.1: {}
+
+  fsevents@2.3.3:
+    optional: true
+
+  html-rspack-plugin@5.7.2(@rspack/core@0.7.1(@swc/helpers@0.5.3)):
+    optionalDependencies:
+      '@rspack/core': 0.7.1(@swc/helpers@0.5.3)
+
+  nanoid@3.3.7: {}
+
+  picocolors@1.0.1: {}
+
+  postcss@8.4.38:
+    dependencies:
+      nanoid: 3.3.7
+      picocolors: 1.0.1
+      source-map-js: 1.2.0
+
+  source-map-js@1.2.0: {}
+
+  tapable@2.2.1: {}
+
+  tslib@2.6.3: {}
+
+  typescript@5.4.5: {}
+
+  webpack-sources@3.2.3: {}
